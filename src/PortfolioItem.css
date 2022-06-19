@@ -1,0 +1,102 @@
+.portfolio_item {
+    border-bottom: 1px solid;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    height: 160px;
+}
+
+.item_selected {
+    background-color: rgb(207, 187, 226);
+}
+
+.portfolio_item_left {
+    padding: 1rem;
+}
+
+.portfolio_item_right {
+    display: flex;
+    flex-direction: row;
+    padding: 1rem;
+}
+
+.portfolio_item_right_delete {
+    width: 40px;
+    height: 40px;
+    border-radius: 25px;
+    font-size: xx-large;
+    color: red;
+    border-color: red;
+    border: 1px solid red;
+}
+
+.portfolio_item_right_stock {
+    width: 140px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.stock_symbol {
+    font-size: xx-large;
+}
+
+.stock_name {
+    font-size: x-large;
+}
+
+.stock_price .positive {
+    font-size: x-large;
+    color: green;
+}
+
+.stock_price .negative {
+    font-size: x-large;
+    color: red;
+}
+
+.stock_quantity {
+    font-size: xx-large;
+    text-align: center;
+}
+
+.stock_quantity_price {
+    font-size: large;
+    text-align: center;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.stock_total_price {
+    font-size: large;
+    text-align: center;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.stock_quantity_button {
+    height: 32px;
+    width: 32px;
+    border-radius: 16px;
+    font-size: x-large;
+    border: 1px solid black;
+}
+
+.increase:hover {
+    background-color: green;
+    color: white;
+    cursor: pointer;
+}
+
+.decrease:hover {
+    background-color: red;
+    color: white;
+    cursor: pointer;
+}
+
+.portfolio_item_right_delete:hover {
+    background-color: red;
+    color: white;
+    cursor: pointer;
+}

@@ -1,0 +1,47 @@
+.price,
+.quantity,
+.day-low,
+.day-high,
+.volume,
+.market-cap,
+.exchange {
+    display: flex;
+    justify-content: space-between;
+    font-size: x-large;
+    margin: 1rem;
+}
+
+.total-value {
+    font-size: 2rem;
+    text-align: center;
+}
+
+.detail-price-quantity {
+    font-size: small;
+    color: black;
+}
+
+.price-value {
+    display: block;
+    text-align: right;
+}
+
+.price-sub-value {
+    font-size: medium;
+}
+
+.negative {
+    color: red;
+}
+
+.positive {
+    color: green;
+}
+
+.label {
+    color: black;
+}
+
+.value {
+    font-weight: bold;
+}

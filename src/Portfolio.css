@@ -1,0 +1,63 @@
+.portfolio {
+    margin-top: 1rem;
+    max-width: 1200px;
+    margin: auto;
+    border: 2px solid blueviolet;
+    padding: 1rem;
+}
+.portfolio-bottom {
+    border-color: black;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin: 1rem;
+    border: 1px solid black;
+}
+
+.portfolio-detail {
+    margin: 0rem;
+    padding: 1rem;
+    background-color: rgb(207, 187, 226);
+    border-left: 1px solid;
+    height: 800px;
+}
+
+.portfolio-total-value {
+    font-size: xx-large;
+    text-align: center;
+    padding: 1rem;
+    border: 1.5px solid;
+    border-radius: 1rem;
+    width: 160px;
+}
+
+.portfolio-total {
+    margin: 1rem;
+    display: flex;
+    justify-content: center;
+}
+
+.portfolio-add {
+    display: flex;
+    justify-content: center;
+}
+
+.portfolio-list {
+    height: 800px;
+    overflow-y: scroll;
+}
+
+.portfolio-ul {
+    padding: 0rem;
+    margin: 0rem;
+}
+
+.portflio-not-created {
+    text-align: center;
+    font-size: x-large;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem;
+    border: 1.5px solid;
+}

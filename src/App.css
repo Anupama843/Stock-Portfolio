@@ -1,0 +1,9 @@
+.app{
+  color: black;
+}
+
+.error-message {
+  color: red;
+  text-align: center;
+  padding: 1rem;
+}

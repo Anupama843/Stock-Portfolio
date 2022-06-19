@@ -1,0 +1,16 @@
+.login-form {
+    margin-top: 1rem;
+    max-width: 1200px;
+    margin: auto;
+    border: 2px solid blueviolet;
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    font-size: large;
+}
+
+.loggin-button {
+    margin-left: 0.2rem;
+    margin-right: 0.2rem;
+    font-size: large;
+}
